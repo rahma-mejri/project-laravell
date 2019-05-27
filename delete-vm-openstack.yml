@@ -14,7 +14,7 @@
           user_domain_name: default
           #region_name: RegionOne
           #auth_version: 2    
-    - name: create instance
+    - name: delete instance
       os_server:
         state: absent
         auth: "{{ os_auth }}"
