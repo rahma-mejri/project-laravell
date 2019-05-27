@@ -26,6 +26,6 @@
         network: selfservice
         floating_ip_pools: provider
         floating_ips:
-          - 192.168.1.249
+        fixed_address: 192.168.1.249
         security_groups: default
         wait: yes
