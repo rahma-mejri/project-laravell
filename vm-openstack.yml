@@ -24,8 +24,7 @@
         timeout: 120
         flavor: LARGE
         network: selfservice
-        floating_ip_pools: provider
-        floating_ips:
-        fixed_address: 192.168.1.249
         security_groups: default
-        wait: yes
+      os_floating_ip:
+         fixed_address: 192.168.1.249
+         wait: yes
