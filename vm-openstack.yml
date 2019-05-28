@@ -27,16 +27,17 @@
         #floating_ip_address: 192.168.1.245
         #floating_ip_pools: provider
         #network: provider
-        floating_ips: 192.168.1.215
+        floating_ips: 192.168.1.215 
+        register: floating_ip_info
+        debug:
+        msg: "{{ item.floating_ip.floating_ip_address }}"
+        with_items: "{{floating_ip_info.results}}"
         
         #fixed_adress: 
         #  - 192.168.1.240
        
         security_groups: default
         wait: yes
-        debug:
-        msg: "{{ item.floating_ip.floating_ip_address }}"
-        with_items: "{{floating_ip_info.results}}"
 
 
         
