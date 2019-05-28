@@ -33,7 +33,6 @@
        server: testghjklm
        fixed_address: 192.168.0.100
        network: provider
-        register: floating_ip_info
         
         #fixed_adress: 
         #  - 192.168.1.240
