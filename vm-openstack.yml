@@ -29,7 +29,6 @@
         #network: provider
         floating_ips: 192.168.1.215 
         register: floating_ip_info
-        println: "{{floating_ip_info.result}}"
         
         #fixed_adress: 
         #  - 192.168.1.240
