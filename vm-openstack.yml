@@ -25,7 +25,7 @@
         flavor: LARGE
         network: selfservice
         #floating_ip_address: 192.168.1.245
-        floating_ip_pools: provider
+        #floating_ip_pools: provider
         #os_floating_ip:
         #network: provider
         floating_ips: 192.168.1.240
