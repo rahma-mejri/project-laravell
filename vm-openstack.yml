@@ -18,16 +18,16 @@
       os_server:
         state: present
         auth: "{{ os_auth }}"
-        name: vm-jenkins
+        name: vm
         image: 'Cloud Ubuntu Server 16.04LTS'
         key_name: rahma
         timeout: 120
         flavor: LARGE
         network: selfservice
         #floating_ip_address: 192.168.1.245 
-        #floating_ip_pools: provider
+        floating_ip_pools: provider
         #network: provider
-        floating_ips:
-          - 192.168.1.220
+        floating_ips_address:
+          - 192.168.1.222
         security_groups: default
         wait: yes
