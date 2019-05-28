@@ -31,7 +31,7 @@
         register: floating_ip_info
         debug:
         msg: "{{ item.floating_ip.floating_ip_address }}"
-        with_items: "{{floating_ip_info}}"
+        with_items: "{{floating_ip_info.result}}"
         
         #fixed_adress: 
         #  - 192.168.1.240
