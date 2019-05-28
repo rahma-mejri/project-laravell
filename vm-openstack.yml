@@ -26,9 +26,6 @@
         network: selfservice
         #floating_ip_address: 192.168.1.229
         floating_ip_pools: provider
-        register: testghjklm
-        debug
-          var:  debug.openstack.accessIPV4
         #network: provider
         security_groups: default
         wait: yes
