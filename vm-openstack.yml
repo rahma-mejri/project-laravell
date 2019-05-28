@@ -18,7 +18,7 @@
       os_server:
         state: present
         auth: "{{ os_auth }}"
-        name: vm
+        name: VM
         image: 'Cloud Ubuntu Server 16.04LTS'
         key_name: hana
         timeout: 120
@@ -27,7 +27,7 @@
         #floating_ip_address: 192.168.1.245 
         floating_ip_pools: provider
         #network: provider
-        floating_ips_address:
+        floating_ips:
           - 192.168.1.220
         security_groups: default
         wait: yes
