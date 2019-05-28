@@ -28,6 +28,6 @@
         floating_ip_pools: provider
         #network: provider
         floating_ips_address:
-          - 192.168.1.22
+          - 192.168.1.220
         security_groups: default
         wait: yes
