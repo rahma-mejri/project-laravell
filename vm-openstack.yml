@@ -27,7 +27,7 @@
         #floating_ip_address: 192.168.1.245
         #floating_ip_pools: provider
         #network: provider
-      floating_ips: 192.168.1.215 
+        floating_ips: 192.168.1.215 
         server: "{{ instance_name_prefix }}-{{ item }}"
         with_sequence: "start=1 end={{ number_of_servers }} format=%02x"
         register: floating_ip_info
