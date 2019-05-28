@@ -31,7 +31,7 @@
         #floating_ips: 192.168.1.240
         #fixed_adress: 
         #  - 192.168.1.240
-     - name: Ensure external floating IP on osfloatbugvm
+     - name: Ensure external floating IP
       os_floating_ip:
         cloud: OpenStack
         network: provider
