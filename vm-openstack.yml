@@ -24,10 +24,10 @@
         timeout: 120
         flavor: LARGE
         network: selfservice
-        floating_ip_address: 192.168.1.245 
+        #floating_ip_address: 192.168.1.245 
         #floating_ip_pools: provider
         #network: provider
-        #floating_ips:
-          #- 192.168.1.249
+        floating_ips:
+          - 192.168.1.220
         security_groups: default
         wait: yes
