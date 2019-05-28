@@ -28,7 +28,8 @@
         floating_ip_pools: provider
         #network: provider
         #floating_ips:
-        fixed_adress: 
-          - 192.168.1.240
+        #fixed_adress: 
+          #- 192.168.1.240
+          auto_ip: yes
         security_groups: default
         wait: yes
