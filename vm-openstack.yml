@@ -28,8 +28,7 @@
         floating_ip_pools: provider
         register: testghjklm
         debug
-          var: 
-           debug.openstack.accessIPV4
+          var:  debug.openstack.accessIPV4
         #network: provider
         security_groups: default
         wait: yes
