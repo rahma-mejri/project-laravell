@@ -23,7 +23,7 @@
         key_name: rahma
         timeout: 120
         flavor: LARGE
-        network: selfservice
+        #network: selfservice
         #floating_ip_pools: provider
         #network: provider
         floating_ips:
