@@ -25,12 +25,10 @@
         flavor: LARGE
         network: selfservice
         #floating_ip_address: 192.168.1.245
-        #floating_ip_pools: provider
+        floating_ip_pools: provider
         #network: provider
-        floating_ips: 192.168.1.215 
+        #floating_ips: 192.168.1.215 
         register: floating_ip_info
-        debug:
-        msg: "{{ item.floating_ip.floating_ip_address }}"
         println: "{{floating_ip_info.result}}"
         
         #fixed_adress: 
