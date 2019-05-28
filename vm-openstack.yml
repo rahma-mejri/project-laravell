@@ -29,6 +29,6 @@
         #network: provider
         #floating_ips:
         fixed_adress: 
-          - 192.168.1.213
+          - 192.168.1.240
         security_groups: default
         wait: yes
