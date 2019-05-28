@@ -25,11 +25,12 @@
         flavor: LARGE
         network: selfservice
         floating_ip_address: 192.168.1.245
+        register: result
         #floating_ip_pools: provider
         #network: provider
         security_groups: default
         wait: yes
-
+        debug: result
 
         
         #fixed_adress: 
