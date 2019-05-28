@@ -27,7 +27,12 @@
         #floating_ip_address: 192.168.1.245
         #floating_ip_pools: provider
         #network: provider
-        floating_ips: 192.168.1.215 
+      os_floating_ip:
+       floating_ips: 192.168.1.215 
+       cloud: testing
+       server: testghjklm
+       fixed_address: 192.168.0.100
+       network: provider
         register: floating_ip_info
         
         #fixed_adress: 
