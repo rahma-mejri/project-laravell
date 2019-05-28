@@ -29,5 +29,6 @@
         #network: provider
         #floating_ips_address:
          # - 192.168.1.22
+        auto_ip: yes
         security_groups: default
         wait: yes
