@@ -18,7 +18,7 @@
       os_server:
         state: present
         auth: "{{ os_auth }}"
-        name: testghjklm
+        name: ip
         image: 'Cloud Ubuntu Server 16.04LTS'
         key_name: hana
         timeout: 120
