@@ -25,17 +25,24 @@
         flavor: LARGE
         network: selfservice
         #floating_ip_address: 192.168.1.245
-        auto_floating_ip: yes
        # floating_ip_pools: provider
         #os_floating_ip:
         #network: provider
         #floating_ips: 192.168.1.240
         #fixed_adress: 
         #  - 192.168.1.240
+        security_groups: default
+         wait: yes
+     - name: Ensure external floating IP on osfloatbugvm
+      os_floating_ip:
+        cloud: OpenStack
+        network: provider
+        state: present
         register: float
-        #security_groups: default
-        # wait: yes
+
+     - name: print float
+        debug: var=float
 
    - name: print float
-       debug: var=float
+       debug: var= float
         
