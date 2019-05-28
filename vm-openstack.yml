@@ -32,6 +32,7 @@
         #fixed_adress: 
         #  - 192.168.1.240
         debug: var=float
+        RETURN = 'float'
         security_groups: default
         wait: yes
 
