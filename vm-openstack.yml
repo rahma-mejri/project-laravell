@@ -33,8 +33,8 @@
         #fixed_adress: 
         #  - 192.168.1.240
         register: float
-        security_groups: default
-         wait: yes
+        #security_groups: default
+        # wait: yes
 
    - name: print float
        debug: var=float
