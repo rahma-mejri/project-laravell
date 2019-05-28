@@ -30,6 +30,6 @@
         #floating_ips:
         #fixed_adress: 
           #- 192.168.1.240
-          auto_ip: yes
+        auto_ip: yes
         security_groups: default
         wait: yes
