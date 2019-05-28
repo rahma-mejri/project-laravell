@@ -30,7 +30,7 @@
         security_groups: default
         wait: yes
 
-      os_floating_ip:
+     - os_floating_ip:
        floating_ips: 192.168.1.215 
        cloud: testing
        server: testghjklm
